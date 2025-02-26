@@ -249,7 +249,7 @@ def get_client_by_cat(users,id_index,name_index,age_index,category_index, amount
             monto_total = sum(monto) # utilizamos la función sum() para sumar los montos de la sub-lista de montos
             sub_lista = [i[id_index],i[name_index],i[age_index],monto_total]# la variable sub-lista amacenala la estructura solicitada
             lista.append(sub_lista) #se agrurgan los datos la lista vacia 
-    return lista #rtornamos los datos almacenados en lista
+    return lista #retornamos los datos almacenados en lista
     
     
 users = [
